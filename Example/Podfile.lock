@@ -1,0 +1,48 @@
+PODS:
+  - GYDModuleDemoInterface (0.0.1):
+    - GYDModuleDemoInterface/Base (= 0.0.1)
+    - GYDModuleDemoInterface/ModuleA (= 0.0.1)
+    - GYDModuleDemoInterface/ModuleB (= 0.0.1)
+  - GYDModuleDemoInterface/Base (0.0.1)
+  - GYDModuleDemoInterface/ModuleA (0.0.1)
+  - GYDModuleDemoInterface/ModuleB (0.0.1)
+  - GYDModuleDemoSubModuleA (0.0.1):
+    - GYDModuleDemoInterface
+  - GYDModuleDemoSubModuleB (0.0.1):
+    - GYDModuleDemoInterface
+
+DEPENDENCIES:
+  - "GYDModuleDemoInterface (from `git@github.com:pkgogai/GYDModuleDemoInterface.git`, branch `dev`)"
+  - "GYDModuleDemoSubModuleA (from `git@github.com:pkgogai/GYDModuleDemoSubModuleA.git`, commit `772b7503287a686a9e65b96cb8c8dc27dd5cbdcd`)"
+  - "GYDModuleDemoSubModuleB (from `git@github.com:pkgogai/GYDModuleDemoSubModuleB.git`, tag `0.0.1`)"
+
+EXTERNAL SOURCES:
+  GYDModuleDemoInterface:
+    :branch: dev
+    :git: "git@github.com:pkgogai/GYDModuleDemoInterface.git"
+  GYDModuleDemoSubModuleA:
+    :commit: 772b7503287a686a9e65b96cb8c8dc27dd5cbdcd
+    :git: "git@github.com:pkgogai/GYDModuleDemoSubModuleA.git"
+  GYDModuleDemoSubModuleB:
+    :git: "git@github.com:pkgogai/GYDModuleDemoSubModuleB.git"
+    :tag: 0.0.1
+
+CHECKOUT OPTIONS:
+  GYDModuleDemoInterface:
+    :commit: 708684fa31dc55671cf3ec0dea63b2e33fb06b92
+    :git: "git@github.com:pkgogai/GYDModuleDemoInterface.git"
+  GYDModuleDemoSubModuleA:
+    :commit: 772b7503287a686a9e65b96cb8c8dc27dd5cbdcd
+    :git: "git@github.com:pkgogai/GYDModuleDemoSubModuleA.git"
+  GYDModuleDemoSubModuleB:
+    :git: "git@github.com:pkgogai/GYDModuleDemoSubModuleB.git"
+    :tag: 0.0.1
+
+SPEC CHECKSUMS:
+  GYDModuleDemoInterface: 10b9263445a452f42af0f871a0c3606bf108f951
+  GYDModuleDemoSubModuleA: 9c9355cf2424866880af5f3f6a23340d5f44ff0d
+  GYDModuleDemoSubModuleB: 1abd749be7214b0cb39c8fffec66c59d0cc9ed9b
+
+PODFILE CHECKSUM: 50e3a72bac7edb6dfb138ccab9ff3ac5a818902a
+
+COCOAPODS: 1.6.0.beta.2

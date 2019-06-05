@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Example' do
+  pod 'GYDModuleDemoInterface', 
+    :git => 'git@github.com:pkgogai/GYDModuleDemoInterface.git', 
+    :branch => 'dev'
+
+  pod 'GYDModuleDemoSubModuleA', 
+    :git => 'git@github.com:pkgogai/GYDModuleDemoSubModuleA.git', 
+    :commit => '772b7503287a686a9e65b96cb8c8dc27dd5cbdcd'
+
+  pod 'GYDModuleDemoSubModuleB', 
+    :git => 'git@github.com:pkgogai/GYDModuleDemoSubModuleB.git', 
+    :tag => '0.0.1'
+end
